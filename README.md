@@ -1,4 +1,6 @@
-AVARICHY Mobile Application : 
+AVARICHY Mobile Application : \n
+
+
 This ZIP file contains the data, code, video, and presentation for our innovative solution 
 Avarichy, a mobile application built to support financial operations. Developed with React 
 Native for the frontend and Node.js (Express) with MongoDB for backend services, this 
@@ -21,17 +23,20 @@ management, and API requests
 o Manages user and session data handling, model requests, and response 
 processing 
  Gemini API Integration: Interacts with four fine-tuned financial models using Gemini 
-1.5 Flash APIs  
+1.5 Flash APIs
+   
 o Includes routes and controllers for managing API calls to the Gemini models 
-2. CRISP-DM Implementation (/crisp_dm) This folder implements the CRISP-DM (Cross
+3. CRISP-DM Implementation (/crisp_dm)
+This folder implements the CRISP-DM (Cross
 Industry Standard Process for Data Mining) methodology CRISP-DM Code: Contains Python  
 scripts implementing the methodology, focusing on data Extraction,cleaning and 
 transformation  
 o Location: crisp_dm/ 
-3. Data Processing and Extraction Notebooks (/Crispdm folder) Contains two Jupyter 
-notebooks detailing data extraction and preprocessing processes for both English and Arabic 
+4. Data Processing and Extraction Notebooks (/Crispdm folder) 
+Contains two Jupyter notebooks detailing data extraction and preprocessing processes for both English and Arabic 
 datasets (Arabic dataset translated from English): 
  Data Extraction: Used to parse and extract data from PDF files  
+
 o Location: notebook/data_Extraction_And_Preprocessing 
 o Documents the process of extracting structured financial data from PDFs and 
 data generated using prompt engineering 
@@ -44,6 +49,7 @@ o Documents tests and results for speech-to-text and text-to-speech conversions
 Configuration and API Keys (/) 
  API Key Management:  
 o File: api_keys.txt – Stores API keys required for the four fine-tuned models 
+
 Technology Stack 
  Frontend: React Native 
  Backend: Node.js, Express 
